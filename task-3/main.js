@@ -23,10 +23,16 @@ prompt.get('input', function (err, result) {
 
         console.log("2");
     }
-    else{
+    else if(p>k){
         console.log("5");
+    }
+    else{
+        console.log("=");
     }
 
 
 
 });
+
+
+
