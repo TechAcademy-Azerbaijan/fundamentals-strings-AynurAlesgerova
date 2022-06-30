@@ -1,6 +1,15 @@
-// Use these variables in your code
 
-let s = "This is a cat sitting on a table"
-let c = "t"
+ let s = "This is a cat sitting on a table"
+    let c = "t"
+    let k=0
 
-// Write code here. 
+    for (let i = 0; i < s.length; i++) {
+        
+        if(s[i]=="t" || s[i]=="T"){
+            k=k+1
+        }
+        
+    }
+    console.log(k);
+ 
+ 
