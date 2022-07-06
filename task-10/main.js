@@ -22,4 +22,7 @@ prompt.get('input', function (err, result) {
 
 
 }
+  else{
+    console.log("-1");
+}
 });
